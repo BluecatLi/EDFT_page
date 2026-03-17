@@ -64,7 +64,59 @@
     <div>
       This research focuses on the challenge of real-time 3D object tracking using event-based vision. Unlike frame-based methods, our approach processes asynchronous events to update the object's 6-DoF pose with minimal latency. We utilize a distance field representation to efficiently match events with the object model, achieving robust tracking at 130 Hz on standard hardware.
     </div>
+<br>
+    <h2>Dataset</h2>
+    <div class="well">
+      <p>We provide the event-based sequences (ROS bags) and 3D object models used in our experiments. Each bag file contains raw event data, camera calibration, and ground truth poses.</p>
+      
+      <div style="margin-top: 10px;">
+        <strong>3D Models (.ply):</strong>
+        <ul style="list-style-type: none; padding-left: 20px; margin-top: 5px; margin-bottom: 15px;">
+          <li>
+            <a href="https://www.cvl.iis.u-tokyo.ac.jp/~kyf/EDFT/cheezit.ply">[cheezit]</a> 
+            <a href="https://www.cvl.iis.u-tokyo.ac.jp/~kyf/EDFT/cookie.ply">[cookie]</a> 
+            <a href="https://www.cvl.iis.u-tokyo.ac.jp/~kyf/EDFT/cupnoodle.ply">[cupnoodle]</a> 
+            <a href="https://www.cvl.iis.u-tokyo.ac.jp/~kyf/EDFT/drill_2M.ply">[drill]</a> 
+            <a href="https://www.cvl.iis.u-tokyo.ac.jp/~kyf/EDFT/football.ply">[football]</a>
+          </li>
+        </ul>
 
+        <strong>ROS Bags (.bag):</strong>
+        <ul style="list-style-type: none; padding-left: 20px; margin-top: 5px;">
+          <li style="margin-bottom: 5px;">
+            <strong>Cheez-it:</strong> 
+            <a href="https://www.cvl.iis.u-tokyo.ac.jp/~kyf/EDFT/cheezit1.bag">[seq1]</a> 
+            <a href="https://www.cvl.iis.u-tokyo.ac.jp/~kyf/EDFT/cheezit2.bag">[seq2]</a> 
+            <a href="https://www.cvl.iis.u-tokyo.ac.jp/~kyf/EDFT/cheezit_handheld.bag">[handheld]</a>
+          </li>
+          <li style="margin-bottom: 5px;">
+            <strong>Cookie:</strong> 
+            <a href="https://www.cvl.iis.u-tokyo.ac.jp/~kyf/EDFT/cookie1.bag">[seq1]</a> 
+            <a href="https://www.cvl.iis.u-tokyo.ac.jp/~kyf/EDFT/cookie2.bag">[seq2]</a> 
+            <a href="https://www.cvl.iis.u-tokyo.ac.jp/~kyf/EDFT/cookie_handheld.bag">[handheld]</a>
+          </li>
+          <li style="margin-bottom: 5px;">
+            <strong>Cup Noodle:</strong> 
+            <a href="https://www.cvl.iis.u-tokyo.ac.jp/~kyf/EDFT/cupnoodle1.bag">[seq1]</a> 
+            <a href="https://www.cvl.iis.u-tokyo.ac.jp/~kyf/EDFT/cupnoodle2.bag">[seq2]</a> 
+            <a href="https://www.cvl.iis.u-tokyo.ac.jp/~kyf/EDFT/cupnoodle_handheld.bag">[handheld]</a>
+          </li>
+          <li style="margin-bottom: 5px;">
+            <strong>Drill:</strong> 
+            <a href="https://www.cvl.iis.u-tokyo.ac.jp/~kyf/EDFT/drill1.bag">[seq1]</a> 
+            <a href="https://www.cvl.iis.u-tokyo.ac.jp/~kyf/EDFT/drill2.bag">[seq2]</a> 
+            <a href="https://www.cvl.iis.u-tokyo.ac.jp/~kyf/EDFT/drill_handheld.bag">[handheld]</a> 
+            <a href="https://www.cvl.iis.u-tokyo.ac.jp/~kyf/EDFT/drill_handheld_dark.bag">[handheld_dark]</a>
+          </li>
+          <li style="margin-bottom: 5px;">
+            <strong>Football:</strong> 
+            <a href="https://www.cvl.iis.u-tokyo.ac.jp/~kyf/EDFT/football1.bag">[seq1]</a> 
+            <a href="https://www.cvl.iis.u-tokyo.ac.jp/~kyf/EDFT/football2.bag">[seq2]</a> 
+            <a href="https://www.cvl.iis.u-tokyo.ac.jp/~kyf/EDFT/football_handheld.bag">[handheld]</a>
+          </li>
+        </ul>
+      </div>
+    </div>
     <br>
     <hr>
     </div> 
